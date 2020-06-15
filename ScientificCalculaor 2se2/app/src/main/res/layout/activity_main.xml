@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:background="@color/colorPrimaryDark"
+        android:background="#1BCEA4"
         android:gravity="center|end"
         android:hint="0"
         android:maxLength="14"
@@ -22,55 +22,6 @@
         android:textColorHint="@color/colorTextonSecondary"
         android:textSize="50sp" />
 
-    <TextView
-        android:id="@+id/sign"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@color/colorPrimaryDark"
-        android:gravity="center|end"
-        android:padding="10dp"
-        android:textColor="@color/colorTextonPrimary"
-        android:textColorHint="@color/colorTextonSecondary"
-        android:textSize="30sp" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@color/colorSecondaryLite"
-        android:orientation="horizontal"
-        android:gravity="center"
-        android:weightSum="5">
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="btnClick_log"
-            android:text="log"
-            android:textAllCaps="false"
-            android:textColor="@color/colorTextonSecondary"
-            android:textSize="24sp" />
-
-
-
-        <Button
-            style="@style/Widget.AppCompat.Button.Borderless"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:onClick="btnClick_root"
-            android:text="√"
-            android:textAllCaps="false"
-            android:textColor="@color/colorTextonSecondary"
-            android:textSize="24sp" />
-
-
-
-    </LinearLayout>
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -84,7 +35,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/btn_background"
+            android:background="@drawable/ic_launcher_background"
             android:onClick="btnClick_7"
             android:text="7"
             android:textColor="@color/colorTextonPrimary"
@@ -95,7 +46,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/btn_background"
+            android:background="@drawable/ic_launcher_background"
             android:onClick="btnClick_8"
             android:text="8"
             android:textColor="@color/colorTextonPrimary"
@@ -106,7 +57,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/btn_background"
+            android:background="@drawable/ic_launcher_background"
             android:onClick="btnClick_9"
             android:text="9"
             android:textColor="@color/colorTextonPrimary"
@@ -146,7 +97,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/btn_background"
+            android:background="@drawable/ic_launcher_background"
             android:onClick="btnClick_4"
             android:text="4"
             android:textColor="@color/colorTextonPrimary"
@@ -157,7 +108,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/btn_background"
+            android:background="@drawable/ic_launcher_background"
             android:onClick="btnClick_5"
             android:text="5"
             android:textColor="@color/colorTextonPrimary"
@@ -168,7 +119,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="@drawable/btn_background"
+            android:background="@drawable/ic_launcher_background"
             android:onClick="btnClick_6"
             android:text="6"
             android:textColor="@color/colorTextonPrimary"
@@ -224,7 +175,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/btn_background"
+                    android:background="@drawable/ic_launcher_background"
                     android:onClick="btnClick_1"
                     android:text="1"
                     android:textColor="@color/colorTextonPrimary"
@@ -235,7 +186,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/btn_background"
+                    android:background="@drawable/ic_launcher_background"
                     android:onClick="btnClick_2"
                     android:text="2"
                     android:textColor="@color/colorTextonPrimary"
@@ -246,7 +197,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/btn_background"
+                    android:background="@drawable/ic_launcher_background"
                     android:onClick="btnClick_3"
                     android:text="3"
                     android:textColor="@color/colorTextonPrimary"
@@ -279,7 +230,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/btn_background"
                     android:onClick="btnClick_inv"
-                    android:text="+/-"
+                    android:text="-"
                     android:textColor="@color/colorTextonPrimary"
                     android:textSize="30sp" />
 
@@ -288,7 +239,7 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/btn_background"
+                    android:background="@drawable/ic_launcher_background"
                     android:onClick="btnClick_0"
                     android:text="0"
                     android:textColor="@color/colorTextonPrimary"
@@ -331,7 +282,7 @@
             <Button
                 style="@style/Widget.AppCompat.Button.Borderless"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="350dp"
                 android:layout_weight="1"
                 android:background="@drawable/btn_background2"
                 android:onClick="btnClick_equal"
